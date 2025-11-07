@@ -1,0 +1,16 @@
+{
+  "name": "wawp-gateway-starter",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "dotenv": "^16.4.5",
+    "pino": "^8.15.0"
+  }
+}
